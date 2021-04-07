@@ -95,7 +95,7 @@ const HomeScreen = () => {
               }}
             />
           </Card>
-         <Text style={{padding: 20, textAlign: 'center', color: 'black'}}>Frequently Asked Questions</Text>
+         <Text style={{padding: 20, textAlign: 'center', color: 'black', fontWeight: 'bold'}}>Frequently Asked Questions</Text>
           <Accordion
             activeSections={activeSections}
             sections={CONTENT}

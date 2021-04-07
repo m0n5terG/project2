@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Text, View, Button, ImageBackground } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -52,7 +52,7 @@ const Stack = createStackNavigator();
 
 export default function EventsStack() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{headerTitleAlign: 'center'}} >
       <Stack.Screen
         name="EventsHome"
         component={EventsHomeScreen}
