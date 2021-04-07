@@ -7,7 +7,7 @@ import {
   View,
   TouchableOpacity,
 } from 'react-native';
-import { List, Card, Title, Paragraph } from 'react-native-paper';
+import { Card, Title, Paragraph } from 'react-native-paper';
 import * as Animatable from 'react-native-animatable';
 import Accordion from 'react-native-collapsible/Accordion';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -17,7 +17,7 @@ const Stack = createStackNavigator();
 export default function HomeStack() {
   return (
     
-      <Stack.Navigator>
+      <Stack.Navigator screenOptions={{headerTitleAlign: 'center'}} >
         <Stack.Screen name="Welcome" component={HomeScreen} />
       </Stack.Navigator>
     
