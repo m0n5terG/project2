@@ -24,7 +24,8 @@ pic: "https://randomuser.me/portraits/men/2.jpg",
 {
 name: "Papaya Tan",
 title: "CMO",
-company: "Papayas Inc",
+company: 
+"Papayas Inc",
 pic: "https://randomuser.me/portraits/men/20.jpg",
 },
 ];
