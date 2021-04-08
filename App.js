@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeScreen from './components/HomeScreen';
-import EventScreen from './components/EventScreen';
+import EventsScreen from './components/EventsScreen';
 import ContactScreen from './components/ContactScreen';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
@@ -31,7 +31,7 @@ export default function App() {
           inactiveTintColor: 'gray',
         }}>
         <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Event" component={EventScreen} />
+        <Tab.Screen name="Event" component={EventsScreen} />
         <Tab.Screen name="Contact" component={ContactScreen} />
       </Tab.Navigator>
     </NavigationContainer>
